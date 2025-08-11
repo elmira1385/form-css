@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="form">
+        <h1>Survey Form</h1>
+     <form>
+       
+         <div class="group"> 
+            <label for="name">Name:</label>
+            <br>
+            <input type="text" id="name">
+         </div>
+         <div class="group"> 
+            <label for="email">email:</label>
+            <br>
+            <input type="email" id="email">
+         </div>
+         <div class="group"> 
+            <label for="message">message:</label>
+            <br>
+            <textarea name="message" id="message" rows="4"></textarea>
+         </div>
+         <div class="group"> 
+            <label for="rating">Rating:</label>
+            <input type="range" id="rating" name="rating" min="1" max="5" step="1" >
+         </div>
+         <div class="group">
+            <button class="btn" type="submit"> submit</button>
+         </div>
+     </form>
+    </main>
+</body>
+</html>
