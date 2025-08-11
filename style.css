@@ -15,7 +15,8 @@ background-color:rgba(0, 213, 255, 1);
 .form{
     
     width: 500px;
-    margin: 100px auto;
+    margin: 100px  auto 50px git;
+
     padding: 20px;
     padding-bottom: 10px;
     background-color: #f9f9f9;
@@ -50,4 +51,9 @@ input[type="range"] {
 }
 label{
 font-size: large;
+}
+footer p{
+    text-align: center;
+  
+    
 }
